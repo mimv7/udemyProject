@@ -1,0 +1,53 @@
+/*глобальное исправление*/
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    cursor: text;
+}
+
+button {
+    border: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*глобальное исправление*/
+.hero{
+    margin: 20px auto ;
+    width: 500px;
+}
+h1{
+    color: darkmagenta;
+}
+p{
+    color: mediumpurple;
+    font-size: 30px;
+}
