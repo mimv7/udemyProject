@@ -1,0 +1,61 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="${#Project#xmlns}">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <int:GetCalculation>
+         <int:inParams>
+            <int:PartnerId>${#TestSuite#partnerId}</int:PartnerId>
+            <int:PolicyId>5b383620-d9c4-4cbe-a147-4dd9a7c09c73</int:PolicyId>
+            <int:ProductViewName>${#TestSuite#ProductViewName}</int:ProductViewName>
+            <int:UserId>${#TestSuite#UserId}</int:UserId>
+        <int:Risks>
+        	
+			<int:RiskClass>
+				<int:Name>FN_Age</int:Name>
+				<int:IsActive>false</int:IsActive>
+				<int:IsRequired>false</int:IsRequired>
+				<int:Values>
+					  <int:ValueClass>
+							  <int:IsActive>false</int:IsActive>
+							  <int:MaxValue>26</int:MaxValue>
+							<int:MinValue>26</int:MinValue>
+							<int:UserValue>false</int:UserValue>
+					  </int:ValueClass>
+				</int:Values>
+		  </int:RiskClass>
+  
+			  <int:RiskClass>
+				<int:Name>FN_Program</int:Name>
+				<int:IsActive>false</int:IsActive>
+				<int:IsRequired>false</int:IsRequired>
+				<int:Values>
+					  <int:ValueClass>
+							<int:Name>PROGRAM3</int:Name>
+							  <int:IsActive>false</int:IsActive>
+							  <int:MaxValue>0</int:MaxValue>
+							<int:MinValue>0</int:MinValue>
+							<int:UserValue>false</int:UserValue>
+					  </int:ValueClass>
+				</int:Values>
+		  </int:RiskClass>
+  
+			  <int:RiskClass>
+				<int:Name>FN_ApartmentOperation</int:Name>
+				<int:IsActive>false</int:IsActive>
+				<int:IsRequired>false</int:IsRequired>
+				<int:Values>
+					  <int:ValueClass>
+							<int:Name>300000</int:Name>
+							  <int:IsActive>false</int:IsActive>
+							  <int:MaxValue>300000</int:MaxValue>
+							<int:MinValue>300000</int:MinValue>
+							<int:UserValue>false</int:UserValue>
+					  </int:ValueClass>
+				</int:Values>
+		  </int:RiskClass>
+  
+	    
+            </int:Risks>
+         </int:inParams>
+      </int:GetCalculation>
+   </soapenv:Body>
+</soapenv:Envelope>
