@@ -1,2 +1,3 @@
-message ='hello'
-print(message)
+backes = ['honda','yamaha','suzuki']
+backes.append('ducaty')
+print(backes)
